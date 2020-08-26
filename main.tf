@@ -19,7 +19,7 @@ resource "aws_dynamodb_table" "tfc_example_table" {
 
   attribute {
     name = "UUID"
-    type = "S"
+    type = "N"
   }
 
   tags = {
